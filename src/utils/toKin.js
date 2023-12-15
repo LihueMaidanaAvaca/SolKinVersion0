@@ -145,6 +145,7 @@ export default function toKin(año, fecha){
       tribu: switchSeal(sello),
       vibracion: switchTone(tono),
       raza: raza,
+      onda,
       Umbral: switchSealoffcolor(sello)+' '+switchTone(tono)+' '+raza,
       Onda: switchSealoffcolor(onda),
       Oculto: switchSeal(oculto).split(' ').join(' '+switchTone(tonoOculto)+' '),

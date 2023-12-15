@@ -6,6 +6,7 @@ import toKin from '../utils/toKin'
 import { Typography, Container } from '@mui/material';
 import Oracle from '../components/Oracle';
 import KinMaya from '../components/KinMaya'; 
+import SpellWave from '../components/SpellWave';
 
 const HomePage = () => {
     // Obtener la fecha actual
@@ -44,6 +45,7 @@ const HomePage = () => {
             <Typography variant="h5">
                 Onda: {kinMaya.Onda}
             </Typography>
+            <SpellWave kinMaya={kinMaya}/>
         </Container>
     );
 };
