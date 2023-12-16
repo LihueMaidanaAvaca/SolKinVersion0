@@ -17,7 +17,7 @@ const SpellWave = ({ kinMaya }) => {
                 justifyContent="space-between" // Distribuye el espacio entre los elementos
             >
                 <img src={imgSeals(magnetNum+1)} alt="Ka" style={{ width: '100px', height: 'auto' }} />
-                <div>
+                <div >
                     <img src={imgSeals(magnetNum+12)} alt="Oxlahun" style={{ width: '100px', height: 'auto' }} />
                     <img src={imgSeals(magnetNum+11)} alt="Lahat" style={{ width: '100px', height: 'auto' }} />
                 </div>
